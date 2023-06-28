@@ -1,0 +1,94 @@
+@font-face {
+    font-family: slam;
+    src: url(impact.ttf);
+
+}
+@font-face {
+    font-family: slam2;
+    src: url(BRUSHSCI.TTF);
+}
+.div-1{
+width: 100vw;
+height: 100px;
+background:linear-gradient(rgb(65, 49, 107),rgb(40, 245, 13));
+display: inline-block;
+padding-top: 30px;
+
+}
+
+.a-1{
+margin-left:230px;
+align-items: center ;
+font-family: slam;
+text-decoration: none;
+color: white;
+transition: all 1s;
+font-size: 22px;
+}
+
+.a-1:hover{
+color:  rgb(21, 216, 15);
+text-shadow:0px 0px 2PX black ;
+cursor: pointer;
+
+}
+.col{
+    height: 567px;
+border: 2px rgb(11, 165, 6) solid;
+margin: 0px;
+padding: 0px;
+background-color: blue;
+}
+.img-1{
+width: 565.8px;
+height: 565px;
+transition: all 1s;
+position: absolute;
+}
+.span-1{
+position: absolute;
+z-index: 90;
+margin-left:230px ;
+margin-top: 130px;
+font-family: slam2;
+color: rgb(0, 3, 177);
+font-size: 60px;
+font-weight: bolder;
+}
+.img-1:hover{
+transform: translatey(3%);
+transform: translateX(3%);
+}
+.div-2.row{
+margin: 0px;
+padding: 0px;
+}
+.div-3.row{
+    margin: 0px;
+    padding: 0px;
+}
+.col-3{
+    
+    height: 600px;
+    background-color: rgb(45, 39, 197);
+    margin: 0px;
+    padding: 0px;
+}
+.card{
+margin-left: 30px;
+margin-top:0px;
+background-color: #28f50d;
+transition: all  1s;
+margin: 0px;
+padding: 0px;
+margin-left: 60px;
+margin-top: 10px;
+}
+.card:hover{
+transform: translateX(-6%);
+transform: translateY(-6%);
+}
+
+.hiow2{
+margin-left: 200px;
+}
